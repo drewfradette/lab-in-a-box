@@ -2,12 +2,6 @@
 
 This is a simple docker image that includes all the scipy goodies.
 
-## Building
-
-```
-
-```
-
 ## Usage
 
 If you don't want to build it, you can run get to business with this:
