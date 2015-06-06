@@ -1,31 +1,46 @@
 # Lab-in-a-Box
 
-This is a simple docker image that includes a bunch of handy data analysis tools such as:
+**Lab-in-a-box** is a complete ipython notebook environment wrapped up in a docker image. 
+
+## Packages
+
+As a base, **Lab-in-a-box** provides the defacto standard packages:
 
   - iPython/Jupyter
   - Pandas
-  - Numpy
-  - Sympy
   - matplotlib
-  - mpld3 (allows matplotlib to use D3.js)
-  - Bokeh - Choices for visualization
+  - numpy
+  - sympy
+  - scipy
   - Latex support
+
+This image also provides some extras and nice-to-haves:
+
+  - Bokeh
+  - geopandas
+  - mpld3
+  - NLTK
+  - prettyplotlib
+  - requests
+  - scikit-learn
+  - seaborn
+
+## Extensions
+
+Extension wise, the image is slim but the following extensions are loaded by default:
+
+  - `hide_input`
+  - `execute_time`
+  - `python-markdown`
+  - `toc`
 
 ## Examples
 
-See `Lab Tests.ipynb`.
+Some cool notebooks are located in `notebooks/`.
 
-## Notes
+## Testing Functionality
 
-Since `requirements.txt` can look excessive, here's a breakdown without all the dependencies:
-
-```
-# Core
-pip3 install ipython pandas numpy sympy matplotlib bokeh
-
-# other ipython requirements
-pip3 install ninja2 myzmq mpld3 tornado jsonschema
-```
+`Lab Tests.ipynb` can be used to test various functionality provided by packages.
 
 ## Usage
 
