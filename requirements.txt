@@ -7,7 +7,7 @@ PyYAML==3.11
 Pygments==2.0.2
 SQLAlchemy==1.0.4
 Shapely==1.5.9
-Werkzeug==0.10.4
+Werkzeug==0.15.3
 bokeh==0.9.0
 brewer2mpl==1.4.1
 chardet==2.2.1
