@@ -48,7 +48,7 @@ statsmodels==0.6.1
 sympy==0.7.6
 terminado==0.5
 tornado==4.2
-urllib3==1.7.1
+urllib3==1.26.5
 wheel==0.24.0
 xlrd==0.9.3
 zmq==0.0.0
