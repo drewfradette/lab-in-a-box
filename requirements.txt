@@ -17,7 +17,7 @@ colorama==0.3.3
 descartes==1.0.1
 geopandas==0.1.1
 greenlet==0.4.7
-html5lib==0.999
+html5lib==0.999999999
 husl==4.0.2
 ipython==3.1.0
 itsdangerous==0.24
